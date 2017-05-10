@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Frase do dia</string>
+    <string name="phrase_text_of_the_day">NOVA FRASE</string>
 </resources>

@@ -4,15 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
     tools:context="frasedodia.cursoandroid.com.frasedodia.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <Button
+        android:id="@+id/btnNewPhrase"
+        android:layout_width="301dp"
+        android:layout_height="63dp"
+        android:layout_margin="@dimen/margin_default"
+        android:text="@string/phrase_text_of_the_day"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
+    <TextView
+        android:id="@+id/textNewPhrase"
+        android:layout_width="295dp"
+        android:layout_height="78dp"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        android:textSize="@dimen/size_default"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNewPhrase" />
 </android.support.constraint.ConstraintLayout>
