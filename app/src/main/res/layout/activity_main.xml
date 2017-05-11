@@ -22,10 +22,10 @@
 
     <TextView
         android:id="@+id/textNewPhrase"
-        android:layout_width="295dp"
-        android:layout_height="78dp"
+        android:layout_width="301dp"
+        android:layout_height="322dp"
         android:layout_margin="@dimen/margin_default"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="24dp"
         android:text="TextView"
         android:textSize="@dimen/size_default"
         app:layout_constraintHorizontal_bias="0.505"
